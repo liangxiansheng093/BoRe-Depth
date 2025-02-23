@@ -1,0 +1,12 @@
+pytorch==2.0.1
+torchvision
+pytorch-lightning==1.9.0
+matplotlib
+opencv-python
+tqdm
+imageio
+path
+scipy
+configargparse
+kornia
+mmcv-full==1.4
