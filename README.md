@@ -17,7 +17,7 @@ git clone https //github.com/liangxiansheng093/BoRe-Depth.git
 cd BoRe-Depth
 pip install -r requirements.txt
 ```
-Download [weights](https //drive.google.com/drive/my-drive?dmr=1&ec=wgc-drive-globalnav-goto) to ```checkpoints``` folder.
+Download [weights](https://drive.google.com/drive/my-drive?dmr=1&ec=wgc-drive-globalnav-goto) to ```checkpoints``` folder.
 
 
 ### Inference
@@ -25,8 +25,8 @@ Download [weights](https //drive.google.com/drive/my-drive?dmr=1&ec=wgc-drive-gl
 python infer.py --dataset_name nyu --input_dir demo --output_dir output --save-vis --save-depth
 ```
 Arguments  
-* ```--dataset_name```:  [nyu, kiit, iBims]. The size of the predicted depth map based on the selected dataset.
-* ```--input_dir```:  The path to the input picture or folder (both ```jpg``` and ```png``` format images).
-* ```--output_dir```:  The path to the output depth map (both ```png``` and ```npy``` format).
-* ```--save-vis```:  Saving the visual images.
-* ```--save-depth```:  Saving the numpy result.
+* ```--dataset_name```: [nyu, kiit, iBims]. The size of the predicted depth map based on the selected dataset.
+* ```--input_dir```: The path to the input picture or folder (both ```jpg``` and ```png``` format images).
+* ```--output_dir```: The path to the output depth map (both ```png``` and ```npy``` format).
+* ```--save-vis```: Saving the visual images.
+* ```--save-depth```: Saving the numpy result.
