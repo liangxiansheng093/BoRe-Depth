@@ -13,7 +13,7 @@ We provide two models (NYUv2 and KITTI) for robust relative depth estimation
 ## Usage
 ### Installation
 ```
-git clone https //github.com/liangxiansheng093/BoRe-Depth.git
+git clone https://github.com/liangxiansheng093/BoRe-Depth.git
 cd BoRe-Depth
 pip install -r requirements.txt
 ```
@@ -26,7 +26,7 @@ python infer.py --dataset_name nyu --input_dir demo --output_dir output --save-v
 ```
 Arguments  
 * ```--dataset_name```: [nyu, kiit, iBims]. The size of the predicted depth map based on the selected dataset.
-* ```--input_dir```: The path to the input picture or folder (both ```jpg``` and ```png``` format images).
+* ```--input_dir```: The path to the input picture or folder (both ```jpg``` and ```png``` format).
 * ```--output_dir```: The path to the output depth map (both ```png``` and ```npy``` format).
 * ```--save-vis```: Saving the visual images.
-* ```--save-depth```: Saving the numpy result.
+* ```--save-depth```: Saving the numpy results.
