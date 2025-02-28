@@ -17,7 +17,7 @@ git clone https://github.com/liangxiansheng093/BoRe-Depth.git
 cd BoRe-Depth
 pip install -r requirements.txt
 ```
-Download [weights](https://drive.google.com/drive/my-drive?dmr=1&ec=wgc-drive-globalnav-goto) to ```checkpoints``` folder.
+Download weights to ```checkpoints``` folder.
 
 
 ### Inference
