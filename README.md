@@ -41,7 +41,7 @@ python infer.py --dataset_name nyu --ckpt_path checkpoints/nyu.ckpt --input_dir 
 ```
 Arguments  
 * ```--dataset_name```: [nyu, kiit, iBims]. The size of the predicted depth map based on the selected dataset.
-* * ```--ckpt_path```: The path to the trained weights.
+* ```--ckpt_path```: The path to the trained weights.
 * ```--input_dir```: The path to the input picture or folder (both ```jpg``` and ```png``` format).
 * ```--output_dir```: The path to the output depth map (both ```png``` and ```npy``` format).
 * ```--save-vis```: Saving the visual images.
