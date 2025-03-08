@@ -10,13 +10,11 @@ We provide two models (NYUv2 and KITTI) for robust relative depth estimation (We
 |   NYUv2   |  8.7  |    |
 |   KITTI   |  8.7  |    |
 
+Indoor Scene Visualization
 ![Image](https://github.com/user-attachments/assets/a655a29c-167d-4935-80c5-262a3e928b8e)
-|:--:|
-| *Indoor Scene Visualization* |
 
+Outdoor Scene Visualization
 ![Image](https://github.com/user-attachments/assets/27c6e306-ad8e-49b1-b058-ee70dea1c5f5)
-|:--:|
-| *Outdoor Scene Visualization* |
 
 
 ## Usage
