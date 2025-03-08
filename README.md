@@ -18,10 +18,6 @@ We provide two models (NYUv2 and KITTI) for robust relative depth estimation (We
 |:--:|
 | *Outdoor Scene Visualization* |
 
-![Image](https://github.com/user-attachments/assets/3672cb81-ff59-484d-ad98-4f625cdaa716) ![Image](https://github.com/user-attachments/assets/9b5326b5-cbf5-40e2-9307-6972e509dc84) ![Image](https://github.com/user-attachments/assets/a137c50e-7516-48ac-b783-663d4af329ba)
-|:--:|
-| *Point Cloud Visualization* |
-
 
 ## Usage
 ### Installation
