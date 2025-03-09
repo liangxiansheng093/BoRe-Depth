@@ -5,6 +5,7 @@ It is suitable for all kinds of real-time tasks, especially on embedded devices 
 
 ## Performance
 (We will publish the weights and datas after the paper is received.)
+
 We provide two models (NYUv2 and KITTI) for robust relative depth estimation. 
 |  **Dataset**  |  **Param./M**  |  **Abs_Rel**  |  **RMSE**  |  **$\delta$<sub>1</sub>**  |  **$\delta$<sub>2</sub>**  |  **$\delta$<sub>3</sub>**  |  **$\epsilon$<sub>DBE</sub><sup>acc</sup>**  |
 | :-------: | :-------------: | :-------: | :-------: | :-------: | :-------: | :-------: | :-------: | 
@@ -31,6 +32,7 @@ Download weights to ```checkpoints``` folder.
 ```
 python test.py --dataset_name nyu --dataset_dir datasets/nyu/testing --ckpt_path checkpoints/nyu.ckpt
 ```
+Options:
 * ```--dataset_name```: [nyu, kiit, iBims]. The size of the predicted depth map based on the selected dataset.
 * ```--dataset_dir```: The path to the test dataset (both ```jpg``` and ```png``` format).
 * ```--ckpt_path```: The path to the trained weights.
@@ -39,7 +41,7 @@ python test.py --dataset_name nyu --dataset_dir datasets/nyu/testing --ckpt_path
 ```
 python infer.py --dataset_name nyu --ckpt_path checkpoints/nyu.ckpt --input_dir demo --output_dir output --save-vis --save-depth
 ```
-Arguments  
+Options:
 * ```--dataset_name```: [nyu, kiit, iBims]. The size of the predicted depth map based on the selected dataset.
 * ```--ckpt_path```: The path to the trained weights.
 * ```--input_dir```: The path to the input picture or folder (both ```jpg``` and ```png``` format).
