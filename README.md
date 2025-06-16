@@ -4,13 +4,12 @@
 It is suitable for all kinds of real-time tasks, especially on embedded devices of unmanned systems.
 
 ## Performance
-(We will publish the weights and datas after the paper is received.)
 
-We provide two models (NYUv2 and KITTI) for robust relative depth estimation. 
+We provide [two models (NYUv2 and KITTI)](https://drive.google.com/drive/folders/11XxOXqWKp3bXe2Sv2ED90__S3GwkgMRI) for robust relative depth estimation. 
 |  **Dataset**  |  **Param./M**  |  **Abs_Rel**  |  **RMSE**  |  **$\delta$<sub>1</sub>**  |  **$\delta$<sub>2</sub>**  |  **$\delta$<sub>3</sub>**  |  **$\epsilon$<sub>DBE</sub><sup>acc</sup>**  |
 | :-------: | :-------------: | :-------: | :-------: | :-------: | :-------: | :-------: | :-------: | 
-|   NYUv2   |  8.7  |    |
-|   KITTI   |  8.7  |    |
+|   NYUv2   |  8.7  |  0.101  |  0.429  |  0.883  |  0.971  |  0.993  |  2.083  |
+|   KITTI   |  8.7  |  0.103  |  4.323  |  0.889  |  0.967  |  0.986  |  2.649  |
 
 **Indoor Scene Visualization**
 ![Image](https://github.com/user-attachments/assets/a655a29c-167d-4935-80c5-262a3e928b8e)
