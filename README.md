@@ -2,6 +2,7 @@
 ## A novel lightweight monocular depth estimation method.
 
 It is suitable for all kinds of real-time tasks, especially on embedded devices of unmanned systems.
+[video](https://www.bilibili.com/video/BV1BNxfz5Ecv/?spm_id_from=333.1387.list.card_archive.click&vd_source=c5f6d6a7fa4fc4365b9737f9fd5b2f8b)
 
 ## Performance
 
